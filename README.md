@@ -24,3 +24,38 @@ In my suitability analysis, I incorporated four geographic criteria:
 Each criterion was standardized onto a five-point suitability score, going from very low to very high.
 These criteria were then applied to several models with different weights, using the suitability modeler in ArcGIS Pro.
 
+Protected lands identified under PAD-US GAP Status Codes 1–3 were excluded from the final suitability analysis. 
+
+### Model Weighting Scenarios
+
+| Criterion | Equal-Weight | Growth-Oriented | Infrastructure-Oriented |
+|---|---:|---:|---:|
+| Terrain slope | 25% | 10% | 15% |
+| Road accessibility | 25% | 35% | 45% |
+| Population density | 25% | 30% | 20% |
+| Impervious surface change | 25% | 25% | 20% |
+
+## Results
+### Consensus Development Suitability 
+This analysis identified areas classified as high or very high suitability across all three models. 
+
+43,707 acres were identified, which represents around 6.7% of the eligible area.
+
+![Consensus Development Suitability Map](Map%20Layouts/PNG%20Maps/Consensus%20Development%20Suitability.png)
+### Model Agreement
+Looks at how many models classified a location as suitable.
+
+
+| Number of Models Identifying High Suitability | Area (Acres) |
+|---|---:|
+| 0 | 467,310 |
+| 1 | 140,740 |
+| 2 | 3,732 |
+| 3 | 43,707 |
+
+This shows that the three models considered the vast majority of land unsuitable. However, a substantial amount of land was identified as suitable by only one model. 
+
+![Model Agreement Suitability Map](Map%20Layouts/PNG%20Maps/Edwards%20Aquifer%20Model%20Agreement%20Layout.png) 
+
+
+
