@@ -13,12 +13,14 @@ However, development has rapidly increased over the last few decades in Central 
 ### Methodology
 In my suitability analysis, I incorporated four geographic criteria:
 
-Terrain Slope- Flatter land got higher suitability values, as it is easier to develop.
-Road Accessibility- Areas closer to major roads were assigned higher suitability values.
-Population Density- More densely populated areas received higher suitability values.
-Impervious Surface Change- This criterion measured the change in impervious surface from 2005 to 2025. Areas experiencing greater increases received higher suitability values.
+**Terrain Slope**- Flatter land got higher suitability values, as it is easier to develop.
+
+**Road Accessibility**- Areas closer to major roads were assigned higher suitability values.
+
+**Population Density**- More densely populated areas received higher suitability values.
+
+**Impervious Surface Change**- This criterion measured the change in impervious surface from 2005 to 2025. Areas experiencing greater increases received higher suitability values.
 
 Each criterion was standardized onto a five-point suitability score, going from very low to very high.
-
-These criteria were applied to several models with different weights, using the suitability modeler in ArcGIS Pro.
+These criteria were then applied to several models with different weights, using the suitability modeler in ArcGIS Pro.
 
