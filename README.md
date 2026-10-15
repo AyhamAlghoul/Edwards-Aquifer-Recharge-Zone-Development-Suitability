@@ -56,6 +56,24 @@ Looks at how many models classified a location as suitable.
 This shows that the three models considered the vast majority of land unsuitable. However, a substantial amount of land was identified as suitable by only one model. 
 
 ![Model Agreement Suitability Map](Map%20Layouts/PNG%20Maps/Edwards%20Aquifer%20Model%20Agreement%20Layout.png) 
+### Equal-Weights Model
+Gives equal weight to all the geographic criteria.
+
+![Equal-Weights Suitability Map](Map%20Layouts/PNG%20Maps/Edward_Aquifer_Equal_Weights.png) 
+### Growth-Oriented Model
+Places greater emphasis on population density and road accessibility than the equal-weights model. Impervious change has the same weight, while terrain slope has a much smaller weight. 
+
+![Growth-Oriented Suitability Map](Map%20Layouts/PNG%20Maps/Growth-Oriented%20Layout.png) 
+### Infrastructure-Oriented Model
+Assigns the largest weight to road accessibility, while the other three weights are decreased.
+
+![Infrastructure-Oriented Suitability Map](Map%20Layouts/PNG%20Maps/Infrastructure-Oriented%20Layout.png) 
+
+### Key Findings
+1) 43,707 acres were identified by all 3 models as highly suitable.
+2) Model weighting has a substantial effect on suitability calculation; there were 140,740 acres that were identified by only one model
+3) Road accessibility was a particularly important criterion. About 99.4% of the acreage identified by only one model were in the Infrastructure-Oriented model.
+4) Areas consistently classified as highly suitable are less sensitive to different weighting scenarios. 
 
 
 
